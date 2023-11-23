@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "echo \"Warning: no build specified\" && exit 0",
     "commit": "cz",
     "release": "standard-version",
     "prepare": "husky install",
