@@ -7,7 +7,7 @@
     "commit": "cz",
     "release": "standard-version",
     "prepare": "husky install",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Warning: no test specified\" && exit 0"
   },
   "keywords": [],
   "author": "",
