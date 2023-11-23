@@ -7,3 +7,4 @@ help: ## Show this help.
 commit: ## Stage all files and commit with `commitizen`
 	git add .
 	pnpm commit
+	git push
