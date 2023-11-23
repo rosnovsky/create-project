@@ -8,3 +8,7 @@ commit: ## Stage all files and commit with `commitizen`
 	git add .
 	pnpm commit
 	git push
+
+release: ## Release a new version
+	pnpm release
+	git push --follow-tags origin main
